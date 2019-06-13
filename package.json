@@ -1,0 +1,47 @@
+{
+  "name": "@actionforest/dispatch",
+  "version": "0.0.0",
+  "description": "Cross server task dispach for ActionForest",
+  "main": "index.js",
+  "files": [
+    "index.d.ts",
+    "index.js.map",
+    "Modules/**/*",
+    "Readme.md",
+    "LICENCE"
+  ],
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actionforest/Dispatch.git"
+  },
+  "keywords": [
+    "ActionForest",
+    "Tasks"
+  ],
+  "author": "Jim Bulkowski <jim.b@paperelectron.com> (http://paperelectron.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/actionforest/Dispatch/issues"
+  },
+  "homepage": "https://github.com/actionforest/Dispatch#readme",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.27",
+    "@types/jest": "^24.0.13",
+    "@types/lodash": "^4.14.134",
+    "@types/node": "^12.0.7",
+    "@types/uuid": "^3.4.4",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.1"
+  },
+  "dependencies": {
+    "@pomegranate/plugin-tools": "^2.0.7",
+    "bluebird": "^3.5.5",
+    "lodash": "^4.17.11",
+    "uuid": "^3.3.2"
+  }
+}
